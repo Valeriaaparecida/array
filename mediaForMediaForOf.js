@@ -5,9 +5,7 @@ const notas = [10, 6.5, 8, 7.5];
 
 let somaDasNotas = 0;
 
-//primeira expressão: executada apenas uma vez
-//segunda expressão: condição de execução
-//terceira expressão: executada sempre ao final do bloco
+
 
 for(let i = 0; i < notas.length; i++){
     somaDasNotas += notas [i];
